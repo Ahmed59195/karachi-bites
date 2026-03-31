@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karachi Bites – Authentic Pakistani Flavors</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ══════════════════════════ NAVBAR ══════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-icon">🍔</span>
+        <span>Karachi <strong>Bites</strong></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" class="nav-order-btn" id="navOrderBtn">Order Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════ HERO ══════════════════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="hero-badge">🌟 Karachi's Favourite Since 2010</div>
+      <h1 class="hero-title">Authentic Pakistani<br /><span>Flavors, Delivered</span></h1>
+      <p class="hero-subtitle">From sizzling burgers to crispy pizzas — made fresh with love.<br />Order online and get it at your door in 30–45 mins.</p>
+      <div class="hero-buttons">
+        <button class="btn-primary" id="heroOrderBtn">🛒 Order Now</button>
+        <a href="#menu" class="btn-secondary">View Menu</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>10K+</strong><span>Happy Customers</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>30 Min</strong><span>Avg Delivery</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><strong>4.8★</strong><span>Average Rating</span></div>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="hero-food-card">
+        <div class="food-emoji-grid">
+          <span>🍔</span><span>🍕</span>
+          <span>🥤</span><span>🍮</span>
+        </div>
+        <p>50+ Menu Items</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════ FEATURES STRIP ══════════════════════════ -->
+  <section class="features-strip">
+    <div class="container">
+      <div class="feature-item">
+        <span class="feature-icon">🚀</span>
+        <div>
+          <strong>Fast Delivery</strong>
+          <p>30–45 minutes to your door</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">✅</span>
+        <div>
+          <strong>100% Halal</strong>
+          <p>Certified halal ingredients</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">💳</span>
+        <div>
+          <strong>Easy Payment</strong>
+          <p>Cash, Easypaisa, JazzCash</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">🕐</span>
+        <div>
+          <strong>Open Daily</strong>
+          <p>12 PM – 12 AM every day</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════ MENU ══════════════════════════ -->
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Our Menu</span>
+        <h2>Fresh & Delicious Every Day</h2>
+        <p>All items prepared fresh to order. Ask our AI assistant to place your order!</p>
+      </div>
+
+      <!-- Category Tabs -->
+      <div class="menu-tabs">
+        <button class="menu-tab active" data-category="burgers">🍔 Burgers</button>
+        <button class="menu-tab" data-category="pizza">🍕 Pizza</button>
+        <button class="menu-tab" data-category="drinks">🥤 Drinks</button>
+        <button class="menu-tab" data-category="desserts">🍮 Desserts</button>
+      </div>
+
+      <!-- Burgers -->
+      <div class="menu-grid" id="cat-burgers">
+        <div class="menu-card">
+          <div class="menu-card-emoji">🍔</div>
+          <div class="menu-card-info">
+            <h3>Zinger Burger</h3>
+            <p>Crispy chicken fillet with special zinger sauce, lettuce & mayo</p>
+            <div class="menu-card-footer">
+              <span class="price">Rs. 350</span>
+              <button class="add-to-chat-btn" data-item="Zinger Burger">Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-emoji">🍔</div>
+          <div class="menu-card-info">
+            <h3>Double Patty Burger</h3>
+            <p>Two juicy beef patties with cheese, pickles & our secret sauce</p>
+            <div class="menu-card-footer">
+              <span class="price">Rs. 450</span>
+              <button class="add-to-chat-btn" data-item="Double Patty Burger">Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-emoji">🍔</div>
+          <div class="menu-card-info">
+            <h3>Chicken Burger</h3>
+            <p>Grilled chicken breast with fresh veggies and garlic aioli</p>
+            <div class="menu-card-footer">
+              <span class="price">Rs. 300</span>
+              <button class="add-to-chat-btn" data-item="Chicken Burger">Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-emoji">🍔</div>
+          <div class="menu-card-info">
+            <h3>BBQ Burger</h3>
+            <p>Smoky BBQ beef patty with caramelized onions & cheddar</p>
+            <div class="menu-card-footer">
+              <span class="price">Rs. 400</span>
+              <button class="add-to-chat-btn" data-item="BBQ Burger">Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-emoji">🥗</div>
+          <div class="menu-card-info">
+            <h3>Veggie Burger</h3>
+            <p>Plant-based patty with avocado, tomato & herb dressing</p>
+            <div class="menu-card-footer">
+              <span class="price">Rs. 250</span>
+              <button class="add-to-chat-btn" data-item="Veggie Burger">Order</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pizza -->
+      <div class="menu-grid hidden" id="cat-pizza">
+        <div class="menu-card">
+          <div class="menu-card-emoji">🍕</div>
+          <div class="menu-card-info">
+            <h3>Margherita Pizza</h3>
+            <p>Classic tomato sauce, fresh mozzarella & basil leaves</p>
+            <div class="menu-card-footer">
+              <span class="price">Rs. 800</span>
+              <button class="add-to-chat-btn" data-item="Margherita Pizza">Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-emoji">🍕</div>
+          <div class="menu-card-info">
+            <h3>Pepperoni Pizza</h3>
+            <p>Loaded with premium halal pepperoni & stretchy mozzarella</p>
+            <div class="menu-card-footer">
+              <span class="price">Rs. 950</span>
+              <button class="add-to-chat-btn" data-item="Pepperoni Pizza">Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-emoji">🍕</div>
+          <div class="menu-card-info">
+            <h3>BBQ Chicken Pizza</h3>
+            <p>Tangy BBQ base, grilled chicken, onions & bell peppers</p>
+            <div class="menu-card-footer">
+              <span class="price">Rs. 900</span>
+              <button class="add-to-chat-btn" data-item="BBQ Chicken Pizza">Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-emoji">🍕</div>
+          <div class="menu-card-info">
+            <h3>Veggie Supreme Pizza</h3>
+            <p>Garden-fresh vegetables on a herbed tomato base</p>
+            <div class="menu-card-footer">
+              <span class="price">Rs. 850</span>
+              <button class="add-to-chat-btn" data-item="Veggie Supreme Pizza">Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-emoji">🍕</div>
+          <div class="menu-card-info">
+            <h3>Meat Lovers Pizza</h3>
+            <p>Beef, chicken, and beef sausage on a rich tomato base</p>
+            <div class="menu-card-footer">
+              <span class="price">Rs. 1000</span>
+              <button class="add-to-chat-btn" data-item="Meat Lovers Pizza">Order</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Drinks -->
+      <div class="menu-grid hidden" id="cat-drinks">
+        <div class="menu-card">
+          <div class="menu-card-emoji">🥤</div>
+          <div class="menu-card-info">
+            <h3>Coke</h3>
+            <p>Ice-cold Coca-Cola, the perfect companion</p>
+            <div class="menu-card-footer">
+              <span class="price">Rs. 150</span>
+              <button class="add-to-chat-btn" data-item="Coke">Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-emoji">🥤</div>
+          <div class="menu-card-info">
+            <h3>Sprite</h3>
+            <p>Refreshing lemon-lime fizz to cool you down</p>
+            <div class="menu-card-footer">
+              <span class="price">Rs. 150</span>
+              <button class="add-to-chat-btn" data-item="Sprite">Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-emoji">🥤</div>
+          <div class="menu-card-info">
+            <h3>Fanta</h3>
+            <p>Sweet and fizzy orange goodness</p>
+            <div class="menu-card-footer">
+              <span class="price">Rs. 150</span>
+              <button class="add-to-chat-btn" data-item="Fanta">Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-emoji">🍶</div>
+          <div class="menu-card-info">
+            <h3>Lassi</h3>
+            <p>Traditional thick yogurt drink, sweet or salty</p>
+            <div class="menu-card-footer">
+              <span class="price">Rs. 200</span>
+              <button class="add-to-chat-btn" data-item="Lassi">Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-emoji">🍊</div>
+          <div class="menu-card-info">
+            <h3>Fresh Juice</h3>
+            <p>Freshly squeezed seasonal fruit juice</p>
+            <div class="menu-card-footer">
+              <span class="price">Rs. 250</span>
+              <button class="add-to-chat-btn" data-item="Fresh Juice">Order</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desserts -->
+      <div class="menu-grid hidden" id="cat-desserts">
+        <div class="menu-card">
+          <div class="menu-card-emoji">🍫</div>
+          <div class="menu-card-info">
+            <h3>Brownie</h3>
+            <p>Warm fudgy chocolate brownie with vanilla ice cream</p>
+            <div class="menu-card-footer">
+              <span class="price">Rs. 300</span>
+              <button class="add-to-chat-btn" data-item="Brownie">Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-emoji">🍦</div>
+          <div class="menu-card-info">
+            <h3>Ice Cream</h3>
+            <p>Creamy soft-serve with your choice of flavour</p>
+            <div class="menu-card-footer">
+              <span class="price">Rs. 200</span>
+              <button class="add-to-chat-btn" data-item="Ice Cream">Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-emoji">🍯</div>
+          <div class="menu-card-info">
+            <h3>Gulab Jamun</h3>
+            <p>Soft milk-solid balls soaked in rose-flavoured sugar syrup</p>
+            <div class="menu-card-footer">
+              <span class="price">Rs. 150</span>
+              <button class="add-to-chat-btn" data-item="Gulab Jamun">Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-emoji">🍚</div>
+          <div class="menu-card-info">
+            <h3>Kheer</h3>
+            <p>Classic Pakistani rice pudding with cardamom & pistachios</p>
+            <div class="menu-card-footer">
+              <span class="price">Rs. 180</span>
+              <button class="add-to-chat-btn" data-item="Kheer">Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-emoji">🍰</div>
+          <div class="menu-card-info">
+            <h3>Cake Slice</h3>
+            <p>Freshly baked layered cake — today's flavour changes daily!</p>
+            <div class="menu-card-footer">
+              <span class="price">Rs. 250</span>
+              <button class="add-to-chat-btn" data-item="Cake Slice">Order</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════ ABOUT ══════════════════════════ -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-emoji-stack">
+            <div class="emoji-big">🍔</div>
+            <div class="about-badges">
+              <span class="badge-pill">✅ 100% Halal</span>
+              <span class="badge-pill">🏆 Award Winning</span>
+              <span class="badge-pill">❤️ Family Owned</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="section-badge">Our Story</span>
+          <h2>Karachi's Favourite Fast Food Since 2010</h2>
+          <p>What started as a small family kitchen in Block 4 Clifton has grown into one of Karachi's most loved food destinations. We combine the bold spices of Pakistani cuisine with international fast-food favourites.</p>
+          <p>Every burger, pizza, and dessert is made fresh to order using quality halal ingredients. We believe good food brings people together — that's been our mission for over 14 years.</p>
+          <div class="about-highlights">
+            <div class="highlight">
+              <strong>14+</strong>
+              <span>Years Serving Karachi</span>
+            </div>
+            <div class="highlight">
+              <strong>50+</strong>
+              <span>Menu Items</span>
+            </div>
+            <div class="highlight">
+              <strong>10K+</strong>
+              <span>Monthly Orders</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════ CONTACT ══════════════════════════ -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Get In Touch</span>
+        <h2>Visit Us or Order Online</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon">📍</div>
+          <h3>Address</h3>
+          <p>Block 4, Clifton<br />Karachi, Pakistan</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">📞</div>
+          <h3>Phone</h3>
+          <p>0300-1234567</p>
+          <small>Available 12 PM – 12 AM</small>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">🕐</div>
+          <h3>Opening Hours</h3>
+          <p>Every Day<br />12:00 PM – 12:00 AM</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">💳</div>
+          <h3>Payment</h3>
+          <p>Cash on Delivery<br />Easypaisa · JazzCash</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════ FOOTER ══════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="logo-icon">🍔</span>
+          <strong>Karachi Bites</strong>
+          <p>Authentic Pakistani flavors, delivered fresh to your door.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a href="/admin">Admin</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Karachi Bites. All rights reserved. | Block 4, Clifton, Karachi</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════ CHAT WIDGET ══════════════════════════ -->
+  <div id="chat-toggle" class="chat-toggle" title="Chat with us!">
+    <span class="chat-toggle-icon">💬</span>
+    <span class="chat-badge hidden" id="chatBadge">1</span>
+  </div>
+
+  <div id="chat-window" class="chat-window hidden">
+    <div class="chat-header">
+      <div class="chat-header-left">
+        <div class="chat-avatar">Z</div>
+        <div class="chat-header-info">
+          <div class="chat-name">Karachi Bites</div>
+          <div class="chat-status"><span class="status-dot"></span> Zara · AI Assistant</div>
+        </div>
+      </div>
+      <button class="chat-close-btn" id="chatClose" aria-label="Close chat">✕</button>
+    </div>
+
+    <div class="chat-messages" id="chatMessages"></div>
+
+    <div class="chat-input-area">
+      <input
+        type="text"
+        id="chatInput"
+        class="chat-input"
+        placeholder="Type your message..."
+        autocomplete="off"
+        maxlength="500"
+      />
+      <button id="chatSend" class="chat-send-btn" aria-label="Send message">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="22" y1="2" x2="11" y2="13"></line>
+          <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="js/chat.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "e19aeda6-3a0e-4f38-9945-c36978732226",
+    "sessionId": "kb_1774880371323_364px8816",
+    "items": [
+      {
+        "name": "Zinger Burger",
+        "qty": 1,
+        "price": 350
+      },
+      {
+        "name": "Fanta",
+        "qty": 1,
+        "price": 150
+      }
+    ],
+    "type": "pickup",
+    "address": null,
+    "total": 500,
+    "status": "preparing",
+    "createdAt": "2026-03-31T04:18:46.072Z",
+    "updatedAt": "2026-03-31T04:19:16.324Z"
+  }
+]

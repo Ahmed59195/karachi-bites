@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard – Karachi Bites</title>
+  <link rel="stylesheet" href="css/admin.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ══════════════════════════ SIDEBAR ══════════════════════════ -->
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <span>🍔</span>
+      <div>
+        <strong>Karachi Bites</strong>
+        <small>Admin Panel</small>
+      </div>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="#" class="nav-item active">
+        <span>📋</span> Orders
+      </a>
+      <a href="/" class="nav-item">
+        <span>🌐</span> View Website
+      </a>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="refresh-status" id="refreshStatus">
+        <span class="refresh-dot"></span>
+        <span id="refreshText">Auto-refresh: 30s</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ══════════════════════════ MAIN CONTENT ══════════════════════════ -->
+  <main class="admin-main">
+
+    <!-- Top Bar -->
+    <header class="admin-topbar">
+      <div class="topbar-left">
+        <h1>Order Dashboard</h1>
+        <span id="currentDateTime" class="topbar-date"></span>
+      </div>
+      <div class="topbar-right">
+        <button class="btn-refresh" id="btnRefresh">⟳ Refresh</button>
+      </div>
+    </header>
+
+    <!-- Stats Cards -->
+    <section class="stats-row" id="statsRow">
+      <div class="stat-card stat-blue">
+        <div class="stat-icon">📦</div>
+        <div class="stat-info">
+          <span class="stat-value" id="statTotalOrders">—</span>
+          <span class="stat-label">Total Orders</span>
+        </div>
+      </div>
+      <div class="stat-card stat-orange">
+        <div class="stat-icon">⏳</div>
+        <div class="stat-info">
+          <span class="stat-value" id="statTodayOrders">—</span>
+          <span class="stat-label">Today's Orders</span>
+        </div>
+      </div>
+      <div class="stat-card stat-purple">
+        <div class="stat-icon">🔄</div>
+        <div class="stat-info">
+          <span class="stat-value" id="statPendingOrders">—</span>
+          <span class="stat-label">Active Orders</span>
+        </div>
+      </div>
+      <div class="stat-card stat-green">
+        <div class="stat-icon">💰</div>
+        <div class="stat-info">
+          <span class="stat-value" id="statTodayRevenue">—</span>
+          <span class="stat-label">Today's Revenue</span>
+        </div>
+      </div>
+      <div class="stat-card stat-teal">
+        <div class="stat-icon">📈</div>
+        <div class="stat-info">
+          <span class="stat-value" id="statTotalRevenue">—</span>
+          <span class="stat-label">Total Revenue</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filter Tabs -->
+    <section class="orders-section">
+      <div class="orders-header">
+        <h2>All Orders</h2>
+        <div class="filter-tabs" id="filterTabs">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="pending">Pending</button>
+          <button class="filter-btn" data-filter="confirmed">Confirmed</button>
+          <button class="filter-btn" data-filter="preparing">Preparing</button>
+          <button class="filter-btn" data-filter="ready">Ready</button>
+          <button class="filter-btn" data-filter="delivered">Delivered</button>
+          <button class="filter-btn" data-filter="cancelled">Cancelled</button>
+        </div>
+      </div>
+
+      <!-- Orders Table -->
+      <div class="table-wrapper">
+        <table class="orders-table" id="ordersTable">
+          <thead>
+            <tr>
+              <th>Order ID</th>
+              <th>Time</th>
+              <th>Items</th>
+              <th>Type</th>
+              <th>Address</th>
+              <th>Total</th>
+              <th>Status</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="ordersTableBody">
+            <tr class="loading-row">
+              <td colspan="8">
+                <div class="loading-spinner">
+                  <div class="spinner"></div>
+                  <span>Loading orders...</span>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Empty State -->
+      <div class="empty-state hidden" id="emptyState">
+        <div class="empty-icon">📭</div>
+        <h3>No orders found</h3>
+        <p>Orders will appear here once customers start placing them via the chat.</p>
+        <a href="/" class="btn-visit">Visit Website →</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══════════════════════════ DELETE CONFIRM MODAL ══════════════════════════ -->
+  <div class="modal-overlay hidden" id="deleteModal">
+    <div class="modal">
+      <div class="modal-icon">🗑️</div>
+      <h3>Delete Order?</h3>
+      <p>This action cannot be undone.</p>
+      <div class="modal-actions">
+        <button class="btn-cancel" id="modalCancel">Cancel</button>
+        <button class="btn-delete-confirm" id="modalConfirm">Delete</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/admin.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,196 @@
+{
+  "kb_1774880371323_364px8816": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "Hi"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Hi there! 👋 Welcome to **Karachi Bites**! I'm Zara, your friendly AI assistant. 😊 \n\nHow can I help you today? Would you like to see our full menu, place an order, or get info about our delivery and hours? Just let me know! 🍔🍕"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "full menu please"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Here’s our delicious menu at **Karachi Bites**! 🤤\n\n🍔 **BURGERS**\n- Zinger Burger – Rs. 350\n- Double Patty Burger – Rs. 450\n- Chicken Burger – Rs. 300\n- BBQ Burger – Rs. 400\n- Veggie Burger – Rs. 250\n\n🍕 **PIZZAS**\n- Margherita Pizza – Rs. 800\n- Pepperoni Pizza – Rs. 950\n- BBQ Chicken Pizza – Rs. 900\n- Veggie Supreme Pizza – Rs. 850\n- Meat Lovers Pizza – Rs. 1000\n\n🥤 **DRINKS**\n- Coke – Rs. 150\n- Sprite – Rs. 150\n- Fanta – Rs. 150\n- Lassi – Rs. 200\n- Fresh Juice – Rs. 250\n\n🍮 **DESSERTS**\n- Brownie – Rs. 300\n- Ice Cream – Rs. 200\n- Gulab Jamun – Rs. 150\n- Kheer – Rs. 180\n- Cake Slice – Rs. 250\n\nCraving something? 😋 Just tell me the item name(s) and how many you'd like, and we'll get your order started! 🛒✨"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "Zinger burger"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Awesome choice! 🍔 How many **Zinger Burgers** (Rs. 350 each) would you like to order? Also, let me know if you'd like to add any sides, drinks, or desserts to your order! 😋"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "yes cold drink"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Great choice! 🥤 Just to confirm, would you like **1 Zinger Burger**? \n\nWhich cold drink would you prefer: **Coke, Sprite, or Fanta**? (All are Rs. 150 each) And how many would you like? 😊"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "FAnta"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Perfect! 🥤 I've noted **1 Fanta** to go with your burger. \n\nSo your order so far is:\n🍔 1 Zinger Burger – Rs. 350\n🥤 1 Fanta – Rs. 150\n\nWould you like **delivery or pickup**? 🚚📍"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "delivery"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Got it! We'll bring your order straight to your doorstep. 🏠 Please share your **full delivery address** so our rider can find you easily. \n\nOnce I have your address, I'll calculate the total, confirm the payment option (Cash on Delivery, Easypaisa, or JazzCash), and finalize everything for you! 😊📍"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "Malir, Karcahi"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Thank you! 📍 Delivery to **Malir, Karachi** is noted. \n\nHere’s your complete order summary:\n🍔 1x Zinger Burger – Rs. 350\n🥤 1x Fanta – Rs. 150\n💰 **Total: Rs. 500**\n⏱️ Estimated delivery time: 30–45 minutes\n💳 You can pay via Cash on Delivery, Easypaisa, or JazzCash\n\nPlease reply **\"CONFIRM\"** along with your preferred payment method, and I’ll lock this in for you! Once confirmed, you’ll receive an order number and your delicious meal will be on its way. 🚴‍♂️✨"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "plan=ce an order"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "You're all set! We're already processing your order for 1 Zinger Burger + 1 Fanta. 🍔🥤 \n\nJust let me know your preferred **payment method** (Cash on Delivery, Easypaisa, or JazzCash), and I’ll instantly finalize everything, generate your order number, and share your delivery window! 😊✨ \n\n*(If you actually meant to start a completely new order from scratch, just say the word and I'll gladly help!)*"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "new order"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Absolutely! Let’s wipe the slate clean and start fresh. 😊 \n\nWhat would you like to order this time? Just let me know the **item name(s)** and **quantity** for each, and I'll guide you through the rest! 🍔🍕🥤✨"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "Zinger burger 1, fanta cold drink 1"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Awesome! 🍔🥤 I've noted **1 Zinger Burger** (Rs. 350) and **1 Fanta** (Rs. 150). \n\nWould you like this for **delivery or pickup**? 🚚📍"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "pickup, where is your location?"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Perfect! 📍 For pickup, we're located at **Block 4, Clifton, Karachi**. You can find us easily right on the main road! 🗺️✨\n\nHere’s your order summary:\n🍔 1x Zinger Burger – Rs. 350\n🥤 1x Fanta – Rs. 150\n💰 **Total: Rs. 500**\n\nPlease reply **\"CONFIRM\"** along with your preferred payment method (Cash on Pickup, Easypaisa, or JazzCash), and I’ll finalize everything right away! ⏱️ Once confirmed, an order number will be generated and your meal will be ready for collection in about 20–25 minutes. 😊🚗"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "cofirm, payment cash"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Order confirmed! 🎉 Thank you for your purchase!\n\n📋 **Your Order Summary:**\n🍔 1x Zinger Burger – Rs. 350\n🥤 1x Fanta – Rs. 150\n💵 Payment Method: Cash\n📍 Order Type: Pickup at Block 4, Clifton, Karachi\n💰 **Total: Rs. 500**\n\n⏱️ An order number will be generated and sent to you shortly. Your meal will be ready for pickup in approximately 20–25 minutes! \n\nThank you for choosing **Karachi Bites**! 🇵🇰✨ We look forward to serving you. See you soon!\n\n<ORDER_CONFIRMED>{\"items\": [{\"name\": \"Zinger Burger\", \"qty\": 1, \"price\": 350}, {\"name\": \"Fanta\", \"qty\": 1, \"price\": 150}], \"type\": \"pickup\", \"address\": null, \"total\": 500}</ORDER_CONFIRMED>"
+        }
+      ]
+    }
+  ]
+}
